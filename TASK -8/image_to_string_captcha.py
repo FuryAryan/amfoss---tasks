@@ -1,5 +1,5 @@
 import PIL import Image #importing python photo library
-import pytesseract as tess #conerting image to text
+import pytesseract as tess #converting image to text
 import cv2 #it is a python library for solving computer vision problem
 
 my_img_cv = cv2.imread("math(1).png") #this is file name
