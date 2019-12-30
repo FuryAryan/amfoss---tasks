@@ -1,4 +1,4 @@
-import PIL import Image #importing python photo library
+from PIL import Image #importing python photo library
 import pytesseract as tess #converting image to text
 import cv2 #it is a python library for solving computer vision problem
 
