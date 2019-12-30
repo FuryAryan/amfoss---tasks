@@ -5,7 +5,7 @@ use std::io; //this will give us acess to standard instruct or string
 
 fn main() {
 
-	let re = Regex::new(r"^[a-z0-9]+@[a-z][.]?[a-z]".unwrap();
+	let re = Regex::new(r"^[a-z0-9]+@[a-z][.]?[a-z]".unwrap(); // here we are declaring the format of email address and using here unwrap for not letting the condition to fail
 
 	let mut input_emailid = String::new(); //declaring a new string  and it is the input from the user
 	
