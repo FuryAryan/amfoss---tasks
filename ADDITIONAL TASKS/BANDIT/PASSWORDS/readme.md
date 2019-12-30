@@ -16,6 +16,10 @@ PASSWORD for level 5 is : koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 PASSWORD for level 6 is : DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 
+password for level 7 is : HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+
+
 
 
 
