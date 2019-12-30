@@ -16,3 +16,6 @@ password for level 6 was stored in inhere directory which had many directories i
 
 
 password for level 7 was in inhere directory which was empty so when we use find and specify the details of file giving the size and user and group name we get many files and every file shows permission denied except one file so i copied its path and used cat command for that then it gave the password
+
+
+password for level 8 was in data.txt which has many passwords inside but with using grep and as per hint it is in the line of millionth so using grep command with millionth we get the password with it
