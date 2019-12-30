@@ -13,3 +13,6 @@ password for level 5 was stored in inhere directory but inhere directory contain
 
 
 password for level 6 was stored in inhere directory which had many directories inside so we have to find the 1033 byte file which was human readable that was .file2 in maybehere07 which contained the password for level 6
+
+
+password for level 7 was in inhere directory which was empty so when we use find and specify the details of file giving the size and user and group name we get many files and every file shows permission denied except one file so i copied its path and used cat command for that then it gave the password
