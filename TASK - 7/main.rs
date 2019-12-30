@@ -1,4 +1,4 @@
-extern crate regex; //this crate here provides a library for parsing
+extern crate regex; //this crate here provides a library for analizing strings in computer language
 use regex::Regex; //regex is a library for compiling and exequting regular expressions
 
 use std::io; //this will give us acess to standard instruct or string
