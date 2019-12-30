@@ -22,3 +22,7 @@ password for level 8 was in data.txt which has many passwords inside but with us
 u
 
 password for level 9 was in the file data.txt which had many passwords inside it but the password for next level was unique password so i had to sort the file data.txt and use command "sort data.txt | uniq -u" to get the password.
+
+
+password for level 10 was stored in the file data.txt which had many non humanreadable text and somewhere in between was password so i had to use command "strings data.txt| grep = " as it was near = sign so i got my password . 
+
