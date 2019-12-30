@@ -12,7 +12,11 @@ PASSWORD for level 4 is : pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 PASSWORD for level 5 is : koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
-PASSWORD for level 6 is :
+
+PASSWORD for level 6 is : DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+
+
 
 
 
