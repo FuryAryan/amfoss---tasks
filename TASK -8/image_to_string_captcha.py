@@ -8,7 +8,7 @@ new = tess.image_to_string(my_img) # here image file is converted into string an
 
 my_characters = ['?','=', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
-#this is list of characters
+#this is list of the characters
 
 for i in my_characters:
 	new = new.replace(i , '') # now removing unwanted characters in the image file of captcha code
