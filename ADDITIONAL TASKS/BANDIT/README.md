@@ -12,4 +12,4 @@ password for level 4 was stored in a directory named as inhere when we use ls it
 password for level 5 was stored in inhere directory but inhere directory contained 10 files which had only one human readable file so i had to find the file conating ascii text which is human readable text and it was -file07 which had password for level 5
 
 
-
+password for level 6 was stored in inhere directory which had many directories inside so we have to find the 1033 byte file which was human readable that was .file2 in maybehere07 which contained the password for level 6
