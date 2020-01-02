@@ -7,8 +7,8 @@ require 'byebug' # it is a debugger
 
 def scraper  #here we are defining a function as scraper
     url = "https://https://en.wikipedia.org/wiki" #it is the targeted url link
-    unparsed_page = HTTParty.get(url) # here we are giving the request to the url
-    parsed_page = Nokogiri::HTML(unparsed_page) # using here nokogiri we have parsed the html into the format which we can use to extract data later
+    unparsed_page = HTTParty.get(url) # here we are giving the request to the url here unparsed entity may or may not be the text document
+    parsed_page = Nokogiri::HTML(unparsed_page) # using here nokogiri we have parsed the html into the format which we can use to extract data later here parsed entity is the text entity
     
     myarr = Array.new #to call an array and representing it with name of myarr
 
