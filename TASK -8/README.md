@@ -18,3 +18,8 @@ https://pillow.readthedocs.io/en/stable/reference/Image.html
 FOR EVAL FUNCTION :
 
 https://towardsdatascience.com/python-eval-built-in-function-601f87db191
+
+
+FOR INSTALLING AND LEARNING ABOUT OPEN CV :
+
+https://pypi.org/project/opencv-python/
