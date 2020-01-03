@@ -1,2 +1,2 @@
 
-MY BLOG SITE : FuryAryan.github.io
+MY BLOG SITE : https://furyaryan.github.io/
