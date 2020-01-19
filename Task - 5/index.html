@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+                
+ 
+    
+    </head>
+ 
+    
+    <body>
+        
+           
+        <style>
+        
+            body{
+            
+                background-image:url(github.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            
+            }
+        
+            h1 {
+            
+                color:blue;
+                margin-top: 80px;
+            
+            
+            }
+        
+            label{
+            
+                color:darkslategrey;
+            
+          
+            }
+        
+            button{
+                
+            
+                color: crimson;
+            
+            }
+    
+        </style>
+      <script>
+
+          function my_function() {
+                var login = document.getElementById("aryan").value;
+                var query = `query get_details($login: String!) {
+                                user(login: $login) {
+                                    login
+                                    name
+                                    avatarUrl
+                                    bio
+                                }
+                            }`
+                fetch('https://api.github.com/graphql', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'Authorization': 'bearer  a973501e62b30f036b4582654616b19c3c594b47',
+                    },
+                    body: JSON.stringify({
+                        query,
+                        variables: { login },
+                    })
+                })
+                    .then(r => r.json())
+                    .then(data => {
+                            if(data.data.user!=null)
+
+                            {
+                            document.getElementById("Name").innerHTML = data.data.user.name;
+                            document.getElementById("Bio").innerHTML =  data.data.user.bio;
+                            document.getElementById("Avatar").src = data.data.user.avatarUrl;
+                            document.getElementById("Avatar").height = 300;
+                            document.getElementById("Avatar").width = 200;
+                                                        }
+                            else{
+                              alert("No user exists!!")
+                            }
+                    }).catch(function(err){
+                        console.log('Error ', err);
+                    });
+            }
+        </script>
+        
+        
+        <center><h1> GITHUB ID INFORMATION .. </h1></center>
+        <center>
+        <p>
+          <label>GITHUB USERNAME : </label>
+          <input type = "text"
+                 id = "aryan"
+                 placeholder ="ENTER USER ID" />
+        </p> 
+        </center>
+        <center><button type ="button" onclick="my_function()">SEARCH USER</button></center>
+        
+    
+        <div id = "Name"></div>
+        <div id = "Bio"></div>
+        <div > <img id = "Avatar" height="0" width = "0"> </div>
+       
+       
+
+    
+    
+    
+    
+    </body>
+
+
+</html>
