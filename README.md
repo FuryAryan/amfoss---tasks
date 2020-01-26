@@ -1,5 +1,5 @@
 # amfoss---tasks
-s2-famfoss tasks
+s2-amfoss tasks
 
 
 
