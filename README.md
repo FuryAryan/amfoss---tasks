@@ -5,8 +5,8 @@ s2-famfoss tasks
 
 | task list | Status |
 | --- | --- |
-| task-0 | <font color = "green">completed</font> |
-| task-1 |---diff + completed --- |
+| task-0 | <p style='color:red'>This is some red text.</p>|
+| task-1 | completed  |
 | task-2 | completed |
 | task-3 | completed |
 | task-4 | incomplete |
