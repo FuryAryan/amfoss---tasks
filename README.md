@@ -1,22 +1,22 @@
 # Amfoss-Tasks
 
+## S-2 Amfoss Tasks :open_file_folder: 
 
 
-:open_file_folder:
 | task list | Status |
 | --- | --- |
-| task-0 | <p style='color:green'>completed</p>|
-| task-1 | completed  |
-| task-2 | completed |
-| task-3 | completed |
-| task-4 | incomplete |
-| task-5 | completed |
-| task-6 | completed |
-| task-7 | completed |
-| task-8 | completed |
-| task-9 | completed |
-| task-10 | in progress |
-| task-11 | completed |
-| task-12 | completed |
-| task-13 | completed |
-| task-14 | completed |
+| task-0 | :heavy_check_mark: |
+| task-1 | :heavy_check_mark: |
+| task-2 |:heavy_check_mark: |
+| task-3 | :heavy_check_mark: |
+| task-4 | :x: |
+| task-5 | :heavy_check_mark: |
+| task-6 | :heavy_check_mark: |
+| task-7 | :heavy_check_mark: |
+| task-8 | :heavy_check_mark: |
+| task-9 | :heavy_check_mark: |
+| task-10 | :white_check_mark: |
+| task-11 | :heavy_check_mark: |
+| task-12 | :heavy_check_mark: |
+| task-13 | :heavy_check_mark: |
+| task-14 | :heavy_check_mark: |
