@@ -3,7 +3,7 @@
 ## S-2 Amfoss Tasks :open_file_folder: 
 
 
-| task list | Status |
+| Task List | Status |
 | --- | --- |
 | task-0 | :heavy_check_mark: |
 | task-1 | :heavy_check_mark: |
